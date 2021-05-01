@@ -23,21 +23,18 @@ class MyApp extends StatelessWidget {
           child: Column(
             children: [
               Container(
-                height: 150,
-                decoration: BoxDecoration(
-                  color: 'e9e3e3'.toColor(),
-                ),
-                child: Container(
+                  margin: EdgeInsets.all(10),
                   alignment: Alignment.topLeft,
+                  height: 150,
+                  width: 150,
                   decoration: new BoxDecoration(
                       shape: BoxShape.circle,
                       image: new DecorationImage(
-                          fit: BoxFit.fill,
+                        fit: BoxFit.fill,
                           image: new AssetImage(
-                              "/assets/images/profile.jpg"),
+                              "assets/images/profile.jpg"),
                       )
                 ),
-              ),
               ),
               Container(
                 height: 30,
